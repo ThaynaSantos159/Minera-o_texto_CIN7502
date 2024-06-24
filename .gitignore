@@ -1,0 +1,86 @@
+# Ignore arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos e diretórios de configuração de IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore arquivos de Python que não precisam ser versionados
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Ignore arquivos de banco de dados SQLite
+*.sqlite3
+*.db
+
+# Ignore arquivos de log e temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore arquivos de teste e relatórios
+*.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.nox/
+.pytest_cache/
+
+# Ignore ambientes virtuais
+venv/
+.env/
+env/
+ENV/
+.Python
+pip-selfcheck.json
+
+# Ignore arquivos de compilação de pacotes
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# Ignore arquivos de lock do Python
+poetry.lock
+Pipfile.lock
+
+# Ignore arquivos de configuração e chaves secretas
+.env
+*.env
+
+# Ignore pastas criadas pelo Scrapy
+.scrapy/
+
+# Ignore pastas de cache do Scrapy
+crawls/
+cache/
+
+# Ignore arquivos de saída de crawlers
+*.jl
+*.json
+*.csv
+
+# Ignore arquivos de dados temporários e parciais
+*.dump
+
+# Ignore logs gerados pelo Scrapy
+scrapy.log
+
+# Ignore arquivos de instalação do Python (pip)
+*.whl
+*.zip
+
+# Ignore arquivos e diretórios específicos de testes
+tests/
+test_*.py
+unittest_*.py
+
+# Ignore arquivos de configuração do pytest
+.pytest_cache/
+.tox/

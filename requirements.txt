@@ -1,0 +1,2 @@
+Scrapy~=2.11.2
+SQLAlchemy~=2.0.30
